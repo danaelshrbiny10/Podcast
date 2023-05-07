@@ -22,9 +22,4 @@ git clone https://github.com/danaelshrbiny10/podcast-PHP.git
 
 ## DB configuration
 
-- Create MySQL Database at the Localhost.
-- Create Database `go to PHPMyAdmin and Click the New button to create a new database`.
-- name your database `podcast` and select Collation as `utf8_general_ci`.
-- Create a Folder in `htdocs` and name it `podcast`.
-- run file `db_connnection.php`.
-- then run file `index.php`.
+- open [config folder](./config) and read [docs](./config/README.md)
