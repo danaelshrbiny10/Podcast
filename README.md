@@ -1,4 +1,4 @@
-<div align="center" > <h1>podcast</h1> </div>
+<div align="center" > <h1>podcast 🎙️</h1> </div>
 </br>
 
 A fully responsive Podcast website Responsive for all devices built using `HTML`, `CSS`, `JavaScript`, `PHP` and `MySql`.
