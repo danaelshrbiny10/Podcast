@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,211 +8,198 @@
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
+
 <body>
     <header class="active" data-header>
         <div class="container">
-    
-          <!-- 
+
+            <!-- 
             - overlay
           -->
-          <div class="overlay" data-overlay></div>
-    
-          <a href="#" class="logo">
-            <img src="images/logo.svg" alt="Micro logo">
-          </a>
-    
-          <button class="nav-toggle-btn" data-nav-toggle-btn>
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-          <nav class="navbar" data-navbar>
-            <ul class="navbar-list">
-    
-              <li class="navbar-item">
-                <a href="index.html" class="navbar-link">Home</a>
-              </li>
-    
-              <li class="navbar-item">
-                <a href="#podcast" class="navbar-link">Podcast</a>
-              </li>
-    
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">Host</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">Blog</a>
-              </li>
-    
-              <li class="navbar-item">
-                <a href="#contact" class="navbar-link">Contact</a>
-              </li>
-    
-            </ul>
-            <div class="navbar-actions">
+            <div class="overlay" data-overlay></div>
 
-                <button class="navbar-btn">
+            <a href="#" class="logo">
+                <img src="images/new.png" alt="Podcast" width="40" height="40">
+                <h2>Podcast</h2>
+            </a>
+
+            <button class="nav-toggle-btn" data-nav-toggle-btn>
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#hero" class="navbar-link">Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#podcast" class="navbar-link">Podcast</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="navbar-actions">
+
+                    <button class="navbar-btn">
                   <ion-icon name="search-outline"></ion-icon>
                 </button>
-      
-                <button class="navbar-btn">
-                  <ion-icon name="log-in-outline" > <a href="login.html"></a></ion-icon>
+
+                    <button class="navbar-btn">
+                  <a href="login.html"><ion-icon name="log-in-outline" > </ion-icon></a>
+                  
                 </button>
-      
-                <button class="navbar-btn">
-                  <ion-icon name="cart-outline"></ion-icon>
-                </button>
-      
-                <button class="btn">
-                  <ion-icon name="logo-paypal"></ion-icon>
-      
-                  <span>Donate</span>
-                </button>
-      
-              </div>
+
+
+                </div>
             </nav>
 
+
         </div>
-      </header>
-    
-    
+    </header>
+
+
     <div class="s1">
         <form action="" id="login">
-          <h1 class="s2">Sign In Here</h1>
-          <p class="p1">Welcome Back, Sign In To Your Account</p>
-          <div class="form__message form__message-error"></div>
-          <div class="form__input-group">
+            <h1 class="s2">Sign In Here</h1>
+            <p class="p1">Welcome Back, Sign In To Your Account</p>
+            <div class="form__message form__message-error"></div>
+            <div class="form__input-group">
                 <label for="">Email Address*</label><br>
-                <input type="text"  class="form__input" autofocus placeholder="Email Address">
+                <input type="text" class="form__input" autofocus placeholder="Email Address">
                 <div class="form__input-errormess"></div>
-          </div>
+            </div>
 
-          <div class="form__input-group">
-            <label for="">Password*</label><br>
-            <input type="password" class="form__input" placeholder="password">
-            <div class="form__input-errormess"></div>
-          </div>
+            <div class="form__input-group">
+                <label for="">Password*</label><br>
+                <input type="password" class="form__input" placeholder="password">
+                <div class="form__input-errormess"></div>
+            </div>
 
-          <button class="btn1" type="submit">Login Now</button>
-          <p class="p4"><a href="#" class="form__link "> Forgot your password?</a></p>
-          <p class="p2">Don’t have an account? <a href="register.html" id="linkCreateAccount" class="form__link ">Create Account</a></p>
+            <button class="btn1" type="submit">Login Now</button>
+            <p class="p4"><a href="#" class="form__link "> Forgot your password?</a></p>
+            <p class="p2">Don’t have an account? <a href="register.html" id="linkCreateAccount" class="form__link ">Create Account</a></p>
         </form>
     </div>
     <section class="newsletter">
         <div class="newsletter-card">
 
-          <div class="card-content">
-            <h3 class="h3 card-title">Sign Up For Our Newsletter. It’s Free!</h3>
+            <div class="card-content">
+                <h3 class="h3 card-title">Sign Up For Our Newsletter. It’s Free!</h3>
 
-            <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt todeiy felis malesuada mollis purus id
-              sit in aliquet.
-            </p>
-          </div>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt todeiy felis malesuada mollis purus id sit in aliquet.
+                </p>
+            </div>
 
-          <form action="" class="card-form" data-form>
-            <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field"
-              data-input>
+            <form action="" class="card-form" data-form>
+                <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field" data-input>
 
-            <button type="submit" class="btn btn-primary" disabled data-submit>Subscribe</button>
-          </form>
+                <button type="submit" class="btn btn-primary" disabled data-submit>Subscribe</button>
+            </form>
 
         </div>
     </section>
 
-</article>
-</main>
-<footer id="contact">
+    </article>
+    </main>
+    <footer id="contact">
 
-    <div class="footer-top">
-      <div class="container">
+        <div class="footer-top">
+            <div class="container">
 
-        <div class="footer-brand">
-          <a href="#" class="logo">
-            <img src="images/logo.svg" alt="Micro logo">
-          </a>
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="Micro logo">
+                    </a>
 
-          <p class="footer-text" >
-            Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt in felis malesuada mollis purus id sit in
-            aliquet
-            lectus eget morbi dui felis malesuada.
-          </p>
+                    <p class="footer-text">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt in felis malesuada mollis purus id sit in aliquet lectus eget morbi dui felis malesuada.
+                    </p>
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-link-title">Start A Conversation</p>
+                    </li>
+
+                    <li>
+                        <a href="mailto:hello@micro.com" class="footer-link">hello@micro.com</a>
+                    </li>
+
+                    <li>
+                        <a href="tel:+0123454678" class="footer-link">+01234 54678</a>
+                    </li>
+
+                    <li>
+                        <a href="tel:+15780346789" class="footer-link">+1 (578) 034-6789</a>
+                    </li>
+
+                </ul>
+
+                <div class="social-list-box">
+
+                    <p class="social-title">Follow Us On:</p>
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-soundcloud"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-apple"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
         </div>
 
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-link-title">Start A Conversation</p>
-          </li>
-
-          <li>
-            <a href="mailto:hello@micro.com" class="footer-link">hello@micro.com</a>
-          </li>
-
-          <li>
-            <a href="tel:+0123454678" class="footer-link">+01234 54678</a>
-        </li>
-
-        <li>
-          <a href="tel:+15780346789" class="footer-link">+1 (578) 034-6789</a>
-        </li>
-
-      </ul>
-
-      <div class="social-list-box">
-
-        <p class="social-title">Follow Us On:</p>
-        <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-soundcloud"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-apple"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2023 <a href="#">codewithmicro</a>. All Rights Reserved
+                </p>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="footer-bottom">
-  <div class="container">
-    <p class="copyright">
-      &copy; 2023 <a href="#">codewithmicro</a>. All Rights Reserved
-    </p>
-  </div>
-</div>
-
-</footer>
-<a href="#top" class="go-top" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
-  </a>
-  <script src="script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </footer>
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
