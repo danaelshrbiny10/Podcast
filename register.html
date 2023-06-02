@@ -1,110 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Register</title>
 </head>
+
 <body>
     <header class="active" data-header>
         <div class="container">
-    
-          <!-- 
+
+            <!-- 
             - overlay
           -->
-          <div class="overlay" data-overlay></div>
-    
-          <a href="#" class="logo">
-            <img src="images/logo.svg" alt="Micro logo">
-          </a>
-    
-          <button class="nav-toggle-btn" data-nav-toggle-btn>
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-          <nav class="navbar" data-navbar>
-            <ul class="navbar-list">
-    
-              <li class="navbar-item">
-                <a href="index.html" class="navbar-link">Home</a>
-              </li>
-    
-              <li class="navbar-item">
-                <a href="#podcast" class="navbar-link">Podcast</a>
-              </li>
-    
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">Host</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">Blog</a>
-              </li>
-    
-              <li class="navbar-item">
-                <a href="#contact" class="navbar-link">Contact</a>
-              </li>
-    
-            </ul>
-            <div class="navbar-actions">
+            <div class="overlay" data-overlay></div>
 
-                <button class="navbar-btn">
-                  <ion-icon name="search-outline"></ion-icon>
-                </button>
-      
-                <button class="navbar-btn">
-                  <ion-icon name="log-in-outline" > <a href="login.html"></a></ion-icon>
-                </button>
-      
-                <button class="navbar-btn">
-                  <ion-icon name="cart-outline"></ion-icon>
-                </button>
-      
-                <button class="btn">
-                  <ion-icon name="logo-paypal"></ion-icon>
-      
-                  <span>Donate</span>
-                </button>
-      
-              </div>
+            <a href="#" class="logo">
+                <img src="images/new.png" alt="Podcast" width="40" height="40">
+                <h2 class="logo-name">Podcast</h2>
+            </a>
+
+            <button class="nav-toggle-btn" data-nav-toggle-btn>
+      <ion-icon name="menu-outline"></ion-icon>
+    </button>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html/#hero" class="navbar-link">Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#podcast" class="navbar-link">Podcast</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="navbar-actions">
+
+                    <button class="navbar-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+                    <button class="navbar-btn">
+          <a href="login.html"><ion-icon name="log-in-outline" > </ion-icon></a>
+          
+        </button>
+
+
+                </div>
             </nav>
-
         </div>
-      </header>
-    
-    
+    </header>
+
+
     <div class="r1">
         <form action="" id="createaccount">
-        <h1 class="s2">Create Your Account</h1>
+            <h1 class="s2">Create Your Account</h1>
 
-        <p class="p1">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.</p>
-        <div class="form__message form__message-error"></div>
-        <div class="form__input-group">
-        <label for="">Name</label><br>
-        <input type="text" placeholder="Name"  id="signupUsername" class="form__input" autofocus>
-        <div class="form__input-errormess"></div>
-        </div>
+            <p class="p1">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.</p>
+            <div class="form__message form__message-error"></div>
+            <div class="form__input-group">
+                <label for="">Name</label><br>
+                <input type="text" placeholder="Name" id="signupUsername" class="form__input" autofocus>
+                <div class="form__input-errormess"></div>
+            </div>
 
-        
-        <div class="form__input-group">
-        <label for="">Email Address</label><br>
-        <input type="email" placeholder="Email address" class="form__input" autofocus>
-        <div class="form__input-errormess"></div></div>
 
-        <div class="form__input-group">
-        <label for="">Password </label><br>
-        <input type="password" placeholder="password" class="form__input" autofocus>
-        <div class="form__input-errormess"></div></div>
+            <div class="form__input-group">
+                <label for="">Email Address</label><br>
+                <input type="email" placeholder="Email address" class="form__input" autofocus>
+                <div class="form__input-errormess"></div>
+            </div>
 
-        <div class="form__input-group">
-        <label for="">Confirm Password </label><br>
-        <input type="password" placeholder="Confirm Password " class="form__input" autofocus>
-        <div class="form__input-errormess"></div></div>
+            <div class="form__input-group">
+                <label for="">Password </label><br>
+                <input type="password" placeholder="password" class="form__input" autofocus>
+                <div class="form__input-errormess"></div>
+            </div>
 
-        <p class="p3">The password should be at least eight characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like( ! " ? $ % ^ & )</p>
+            <div class="form__input-group">
+                <label for="">Confirm Password </label><br>
+                <input type="password" placeholder="Confirm Password " class="form__input" autofocus>
+                <div class="form__input-errormess"></div>
+            </div>
 
-        <button class="btn1" type="submit">Create Account</button>
-        <p class="p2"> Already have an account? <a class="form__link" href="login.html" >Sign In</a> </p>
+            <p class="p3">The password should be at least eight characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like( ! " ? $ % ^ & )</p>
+
+            <button class="btn1" type="submit">Create Account</button>
+            <p class="p2"> Already have an account? <a class="form__link" href="login.html">Sign In</a> </p>
         </form>
 
     </div>
@@ -112,120 +104,82 @@
     <section class="newsletter">
         <div class="newsletter-card">
 
-          <div class="card-content">
-            <h3 class="h3 card-title">Sign Up For Our Newsletter. It’s Free!</h3>
+            <div class="card-content">
+                <h3 class="h3 card-title">Sign Up For Our Newsletter. It’s Free!</h3>
 
-            <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt todeiy felis malesuada mollis purus id
-              sit in aliquet.
-            </p>
-          </div>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt todeiy felis malesuada mollis purus id sit in aliquet.
+                </p>
+            </div>
 
-          <form action="" class="card-form" data-form>
-            <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field"
-              data-input>
+            <form action="" class="card-form" data-form>
+                <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field" data-input>
 
-            <button type="submit" class="btn btn-primary" disabled data-submit>Subscribe</button>
-          </form>
+                <button type="submit" class="btn btn-primary" disabled data-submit>Subscribe</button>
+            </form>
 
         </div>
     </section>
 
-</article>
-</main>
-<footer id="contact">
+    </article>
+    </main>
+    <footer id="contact">
 
-    <div class="footer-top">
-      <div class="container">
+        <div class="footer-top">
+            <div class="container">
 
-        <div class="footer-brand">
-          <a href="#" class="logo">
-            <img src="images/logo.svg" alt="Micro logo">
-          </a>
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="images/new.png" alt="Podcast" width="40" height="40" </a>
+                        <br/>
+                        <p class="footer-text">
+                            A fully responsive Podcast website Responsive for all devices.
+                        </p>
+                </div>
 
-          <p class="footer-text" >
-            Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt in felis malesuada mollis purus id sit in
-            aliquet
-            lectus eget morbi dui felis malesuada.
-          </p>
+
+                <div class="social-list-box">
+
+                    <p class="social-title">Follow Us On:</p>
+
+                    <ol class="social-list">
+
+                        <li>
+                            <a href="https://www.facebook.com/www.kfs.edu.eg" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://kfs.edu.eg/" class="social-link">
+                                <ion-icon name="logo-chrome"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ol>
+
+
+                </div>
+
+            </div>
         </div>
 
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-link-title">Start A Conversation</p>
-          </li>
-
-          <li>
-            <a href="mailto:hello@micro.com" class="footer-link">hello@micro.com</a>
-          </li>
-
-          <li>
-            <a href="tel:+0123454678" class="footer-link">+01234 54678</a>
-        </li>
-
-        <li>
-          <a href="tel:+15780346789" class="footer-link">+1 (578) 034-6789</a>
-        </li>
-
-      </ul>
-
-      <div class="social-list-box">
-
-        <p class="social-title">Follow Us On:</p>
-        <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-soundcloud"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-apple"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2023-2024 <a href="https://kfs.edu.eg/">kafrelsheikh university</a>. All Rights Reserved
+                </p>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="footer-bottom">
-  <div class="container">
-    <p class="copyright">
-      &copy; 2023 <a href="#">codewithmicro</a>. All Rights Reserved
-    </p>
-  </div>
-</div>
-
-</footer>
-<a href="#top" class="go-top" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
-  </a>
-  <script src="script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </footer>
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+    <script src="JS/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
