@@ -25,7 +25,6 @@
     --white: hsl(0, 0%, 100%);
     --color-error: #FF0000;
     --gradient: radial-gradient(circle, rgba(99, 107, 149, 1) 0%, rgba(205, 134, 149, 0.7708333333333334) 100%);
-    background: var(--gradient);
     /**
    * typography
    */
@@ -52,8 +51,7 @@
 \*-----------------------------------*/
 
 *,
-*::before,
-*::after {
+*::before *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -218,6 +216,17 @@ header .container {
     transition: 0.15s ease-in;
 }
 
+.gif-wrapper {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.gif-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .navbar.active {
     bottom: 0;
     visibility: visible;
@@ -250,7 +259,7 @@ header .container {
 }
 
 .navbar-link:is(:hover, :focus) {
-    background: hsla(0, 0%, 100%, 0.1);
+    background: hsl(0, 0%, 100%);
 }
 
 .navbar-actions {
@@ -412,7 +421,6 @@ header .container {
 .card-meta {
     position: relative;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 20px;
     color: var(--heliotrope-gray);
@@ -751,10 +759,12 @@ header .container {
    */
     .footer-top .container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 50px;
+    }
+    .footer-top .container>* {
+        margin-right: 70px;
     }
     .footer-brand {
         max-width: 350px;
