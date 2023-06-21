@@ -11,13 +11,13 @@ To install **podcast**, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/danaelshrbiny10/podcast-PHP.git
+sudo git clone https://github.com/Sara-mabrouk/Podcast-website.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/danaelshrbiny10/podcast-PHP.git
+git clone https://github.com/Sara-mabrouk/Podcast-website.git
 ```
 
 ## DB configuration
