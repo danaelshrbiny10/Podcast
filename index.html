@@ -9,19 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Podcast website</title>
 
     <link rel="stylesheet" href="static/CSS/style.css" />
-
-
-    <link href="static/images/new.png" rel="icon" />
-
-    <link rel="stylesheet" href="static/CSS/style.css">
-
     <link href="static/images/new.png" rel="icon">
 
 </head>
@@ -29,124 +20,88 @@
 <body id="top">
     <!-- Body tag. -->
     <header class="active" data-header>
-
-        <!-- Header -->
+        <!-- Header. -->
         <div class="container">
-            <!-- Overlay -->
+            <!-- Overlay. -->
             <div class="overlay" data-overlay></div>
 
             <a href="#" class="logo">
-                <img src="static/images/new.png" alt="Podcast" width="40" height="40" />
+                <img src="static/images/new.png" alt="Podcast" width="40" height="40">
+                <h2 class="logo-name">Podcast</h2>
+            </a>
 
-                <!-- Header. -->
-                <div class="container">
-                    <!-- Overlay. -->
-                    <div class="overlay" data-overlay></div>
+            <button class="nav-toggle-btn" data-nav-toggle-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
 
-                    <a href="#" class="logo">
-                        <img src="static/images/new.png" alt="Podcast" width="40" height="40">
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#hero" class="navbar-link">Home</a>
+                    </li>
 
-                        <h2 class="logo-name">Podcast</h2>
+                    <li class="navbar-item">
+                        <a href="#podcast" class="navbar-link">Podcast</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link">Contact</a>
+                    </li>
+                </ul>
+
+                <button class="navbar-btn">
+                    <a href="login.html">
+                        <ion-icon name="log-in-outline"> </ion-icon>
                     </a>
+                </button>
+                <div class="navbar-actions"></div>
 
-                    <button class="nav-toggle-btn" data-nav-toggle-btn>
+                <!-- <button class="navbar-btn">
+            <a href="login.html"><ion-icon name="log-in-outline"> </ion-icon></a>
 
-                        <ion-icon name="menu-outline"></ion-icon>
-                    </button>
+        </button> -->
 
-                    <ion-icon name="menu-outline"></ion-icon>
-                    </button>
+            </nav>
 
-
-                    <nav class="navbar" data-navbar>
-                        <ul class="navbar-list">
-                            <li class="navbar-item">
-                                <a href="#hero" class="navbar-link">Home</a>
-                            </li>
-
-                            <li class="navbar-item">
-                                <a href="#podcast" class="navbar-link">Podcast</a>
-                            </li>
-
-                            <li class="navbar-item">
-                                <a href="#contact" class="navbar-link">Contact</a>
-                            </li>
-                        </ul>
-
-                        <button class="navbar-btn">
-                            <a href="login.html">
-                                <ion-icon name="log-in-outline"> </ion-icon>
-                            </a>
-                        </button>
-                        <div class="navbar-actions"></div>
-
-                        <!-- <button class="navbar-btn">
-                    <a href="login.html"><ion-icon name="log-in-outline"> </ion-icon></a>
-
-                </button> -->
-
-                    </nav>
-                </div>
+        </div>
     </header>
-    <!-- End Overlay. -->
+
     <main>
         <article class="container">
             <!--Hero.-->
             <section class="hero" id="hero">
                 <div class="hero-content">
                     <div class="gif-wrapper center">
-
-                        <img src="static/images/giphy.gif" alt="gif" />
-
                         <img src="static/images/giphy.gif" alt="gif">
-
                     </div>
                     <p class="hero-text">
                         Welcome to The Podcast Show where we explore the world of entertainment, technology, and personal growth.
                     </p>
                     <div class="hero-btn-group">
                         <button class="btn btn-primary" href="#podcast">
-
                             <ion-icon name="headset"></ion-icon>
 
                             <span>
-                                <a href="#podcast"> Listen Now </a>
+                                <a  href="#podcast">
+                                    Listen Now
+                                </a>                               
                             </span>
                         </button>
                     </div>
                 </div>
-
-                <div class="hero-banner"></div>
+                <div class="hero-banner">
+                </div>
             </section>
             <!--End Hero.-->
             <!-- Podcast.-->
-
-            <ion-icon name="headset"></ion-icon>
-
-            <span>
-                <a href="#podcast">
-                    Listen Now
-                </a>
-            </span>
-            </button>
-            </div>
-            </div>
-            <div class="hero-banner">
-            </div>
-            </section>
-
-
             <section class="podcast" id="podcast">
-                <!-- Podcast.-->
                 <ul class="podcast-list">
+
                     <li>
                         <a href="https://podtail.com/en/podcast/karohat/--2023-03-26/" class="podcast-card">
+
                             <figure class="card-banner">
-
-                                <img src="static/images/mai.jpg" alt="فول استوب" />
-
                                 <img src="static/images/mai.jpg" alt="فول استوب">
-
 
                                 <div class="card-banner-icon">
                                     <ion-icon name="play"></ion-icon>
@@ -162,34 +117,26 @@
 
                                 <h3 class="h3 card-title">فول استوب</h3>
                             </div>
+
                         </a>
                     </li>
+
+
 
                     <li>
                         <a href="https://podtail.com/en/podcast/eshtry-menny/--2023-04-29/" class="podcast-card">
 
                             <figure class="card-banner">
-                                <img src="static/images/eshtry.png" alt="اشتري مني" />
+                                <img src="static/images/eshtry.png" alt="اشتري مني">
 
+                                <div class="card-banner-icon">
+                                    <ion-icon name="play"></ion-icon>
+                                </div>
+                            </figure>
 
-                                <figure class="card-banner">
-                                    <img src="static/images/eshtry.png" alt="اشتري مني">
-
-
-                                    <div class="card-banner-icon">
-                                        <ion-icon name="play"></ion-icon>
-                                    </div>
-                                </figure>
-
-                                <div class="card-content">
-                                    <div class="card-meta">
-                                        <time datetime="2023-02-15">Eshtry Meny </time>
-
-
-                                        <p class="pod-epi">اشتري مني</p>
-                                    </div>
-
-                                    <h3 class="h3 card-title">لقد كبرنا يا أمي</h3>
+                            <div class="card-content">
+                                <div class="card-meta">
+                                    <time datetime="2023-02-15">Eshtry Meny </time>
 
                                     <p class="pod-epi">
                                         اشتري مني
@@ -198,19 +145,15 @@
 
                                 <h3 class="h3 card-title">لقد كبرنا يا أمي
                                 </h3>
+                            </div>
 
-                                </div>
                         </a>
                     </li>
 
                     <li>
                         <a href="https://podtail.com/en/podcast/mustafa-hosny/--2023-06-02-8/" class="podcast-card">
                             <figure class="card-banner">
-
-                                <img src="static/images/mustafa-hosney.png" alt="حب سيدنا محمد هو ونسك في طريقك لربنا" />
-
                                 <img src="static/images/mustafa-hosney.png" alt="حب سيدنا محمد هو ونسك في طريقك لربنا">
-
                                 <div class="card-banner-icon">
                                     <ion-icon name="play"></ion-icon>
                                 </div>
@@ -220,21 +163,17 @@
                                     <time datetime="2023-02-15">mustafa-hosney</time>
                                     <p>كنوز</p>
                                 </div>
-                                <h3 class="h3 card-title">
-                                    حب سيدنا محمد هو ونسك في طريقك لربنا
-                                </h3>
+                                <h3 class="h3 card-title">حب سيدنا محمد هو ونسك في طريقك لربنا</h3>
                             </div>
                         </a>
                     </li>
 
+
                     <li>
                         <a href="https://podtail.com/en/podcast/08d34c83/--7/" class="podcast-card">
+
                             <figure class="card-banner">
-
-                                <img src="static/images/tea-with-milk.jpg" alt="الناس الي علي السوشيال" />
-
                                 <img src="static/images/tea-with-milk.jpg" alt="الناس الي علي السوشيال">
-
 
                                 <div class="card-banner-icon">
                                     <ion-icon name="play"></ion-icon>
@@ -250,17 +189,15 @@
 
                                 <h3 class="h3 card-title">الناس الي علي السوشيال</h3>
                             </div>
+
                         </a>
                     </li>
 
                     <li>
                         <a href="https://podtail.com/en/podcast/droos-podcast/--2022-08-15/" class="podcast-card">
+
                             <figure class="card-banner">
-
-                                <img src="static/images/droos-online-.png" alt="بودكاست مش مهم تسمعه" />
-
                                 <img src="static/images/droos-online-.png" alt="بودكاست مش مهم تسمعه">
-
 
                                 <div class="card-banner-icon">
                                     <ion-icon name="play"></ion-icon>
@@ -276,17 +213,15 @@
 
                                 <h3 class="h3 card-title">بودكاست مش مهم تسمعه</h3>
                             </div>
+
                         </a>
                     </li>
 
                     <li>
                         <a href="https://podtail.com/en/podcast/726f22de/--2023-05-25/" class="podcast-card">
+
                             <figure class="card-banner">
-
-                                <img src="static/images/hazemelsediq.png" alt="سلسله القصص" />
-
                                 <img src="static/images/hazemelsediq.png" alt="سلسله القصص">
-
 
                                 <div class="card-banner-icon">
                                     <ion-icon name="play"></ion-icon>
@@ -302,17 +237,15 @@
 
                                 <h3 class="h3 card-title">سلسله القصص</h3>
                             </div>
+
                         </a>
                     </li>
 
                     <li>
                         <a href="https://podtail.com/en/podcast/kalam-yenawar/109/" class="podcast-card">
+
                             <figure class="card-banner">
-
-                                <img src="static/images/klamynwr.png" alt="ازاي تتعامل مع الخساره" />
-
                                 <img src="static/images/klamynwr.png" alt="ازاي تتعامل مع الخساره">
-
 
                                 <div class="card-banner-icon">
                                     <ion-icon name="play"></ion-icon>
@@ -328,17 +261,15 @@
 
                                 <h3 class="h3 card-title">ازاي تتعامل مع الخساره</h3>
                             </div>
+
                         </a>
                     </li>
 
                     <li>
                         <a href="https://podtail.com/en/podcast/--kefaya-ba2a/episode-053/" class="podcast-card">
+
                             <figure class="card-banner">
-
-                                <img src="static/images/kfaya-baa.png" alt="قوم وقعد عمو" />
-
                                 <img src="static/images/kfaya-baa.png" alt="قوم وقعد عمو">
-
 
                                 <div class="card-banner-icon">
                                     <ion-icon name="play"></ion-icon>
@@ -354,10 +285,15 @@
 
                                 <h3 class="h3 card-title">قوم وقعد عمو</h3>
                             </div>
+
                         </a>
                     </li>
+
                 </ul>
             </section>
+
+
+
         </article>
     </main>
     <!-- End Podcast.-->
@@ -386,90 +322,61 @@
     </div>
     <!-- End Contact us.  -->
 
-    <!-- Footer.-->
 
+    <!-- Footer. -->
     <footer id="contact">
         <div class="footer-top">
             <div class="container">
                 <div class="footer-brand">
                     <a href="#" class="logo">
-                        <img src="static/images/new.png" alt="Podcast" width="40" height="40" />
+                        <img src="static/images/new.png" alt="Podcast" width="40" height="40">
                     </a>
 
-                    <footer>
-                        <!-- Footer. -->
-                        <footer id="contact">
-                            <div class="footer-top">
-                                <div class="container">
-                                    <div class="footer-brand">
-                                        <a href="#" class="logo">
-                                            <img src="static/images/new.png" alt="Podcast" width="40" height="40">
-                                        </a>
 
-
-                                        <p class="footer-text">
-                                            A fully responsive Podcast website Responsive for all devices.
-                                        </p>
-                                    </div>
-                                    <div class="social-list-box">
-                                        <p class="social-title">Follow Us On</p>
-                                        <ol class="social-list">
-                                            <li>
-                                                <a href="https://www.facebook.com/www.kfs.edu.eg" class="social-link">
-                                                    <ion-icon name="logo-facebook"></ion-icon>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://kfs.edu.eg/" class="social-link">
-                                                    <ion-icon name="logo-chrome"></ion-icon>
-                                                </a>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-
+                    <p class="footer-text">
+                        A fully responsive Podcast website Responsive for all devices.
+                    </p>
                 </div>
-                <div class="footer-bottom">
-                    <div class="container">
-                        <p class="copyright">
-                            &copy; 2023-2024
-                            <a href="https://kfs.edu.eg/">kafrelsheikh university</a>. All Rights Reserved
-                        </p>
-                    </div>
+                <div class="social-list-box">
+                    <p class="social-title">Follow Us On</p>
+                    <ol class="social-list">
+                        <li>
+                            <a href="https://www.facebook.com/www.kfs.edu.eg" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://kfs.edu.eg/" class="social-link">
+                                <ion-icon name="logo-chrome"></ion-icon>
+                            </a>
+                        </li>
+                    </ol>
                 </div>
-                </footer>
-                <!-- End Footer.-->
+            </div>
+        </div>
 
-                <!-- UP. -->
-                <a href="#top" class="go-top" data-go-top>
-                    <ion-icon name="chevron-up-outline"></ion-icon>
-                </a>
-                <!-- custom js link. -->
-                <script src="static/JS/script.js"></script>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2023-2024
+                    <a href="https://kfs.edu.eg/">kafrelsheikh university</a>. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer.-->
 
-                <!--ionicon link. -->
-                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- UP. -->
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+    <!-- custom js link. -->
+    <script src="static/JS/script.js"></script>
 
-                <div class="footer-bottom">
-                    <div class="container">
-                        <p class="copyright">
-                            &copy; 2023-2024 <a href="https://kfs.edu.eg/">kafrelsheikh university</a>. All Rights Reserved
-                        </p>
-                    </div>
-                </div>
-                </footer>
-                <!-- UP. -->
-                <a href="#top" class="go-top" data-go-top>
-                    <ion-icon name="chevron-up-outline"></ion-icon>
-                </a>
-                <!-- custom js link. -->
-                <script src="static/JS/script.js"></script>
-
-                <!--ionicon link. -->
-                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--ionicon link. -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
 </body>
